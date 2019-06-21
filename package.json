@@ -1,0 +1,20 @@
+{
+  "name": "transpilerexample",
+  "version": "1.0.0",
+  "description": "transpiler example app for beginners",
+  "main": "app.js",
+  "scripts": {
+    "test": "test it accurately",
+    "transpile": "babel app.js --out-file app.transpiled.js--source-maps"
+  },
+  "keywords": [
+    "trans"
+  ],
+  "author": "ariyan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
+
